@@ -1,4 +1,3 @@
-import React from "react";
 import PrimaryButton from "../../Shared/PrimaryButton";
 import SecondaryButton from "../../Shared/SecondaryButton";
 

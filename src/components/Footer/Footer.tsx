@@ -1,4 +1,3 @@
-import React from "react";
 import SecondaryButton from "../Shared/SecondaryButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
