@@ -10,7 +10,7 @@ function HowWeWork() {
       <h1 className="text-base font-bold">Proven</h1>
       <h1 className="text-4xl">How We Work</h1>
       <p className="text-center text-lg pt-2 px-4 pb-6">
-        Vaquero Robot combines smart automation with creative thinking to build
+        ZanderBot combines smart automation with creative thinking to build
         campaigns that stick. We measure everything and adjust what isn't
         working.
       </p>

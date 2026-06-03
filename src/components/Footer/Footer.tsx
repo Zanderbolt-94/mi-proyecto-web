@@ -85,9 +85,7 @@ function Footer() {
         <p className="underline">Terms of Service</p>
         <p className="underline">Cookies Settings</p>
       </div>
-      <p className="text-white pt-8">
-        © 2024 Vaquero Robot. All rights reserved.
-      </p>
+      <p className="text-white pt-8">© 2024 ZanderBot. All rights reserved.</p>
     </div>
   );
 }

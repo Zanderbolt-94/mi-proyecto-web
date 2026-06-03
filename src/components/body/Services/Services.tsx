@@ -33,8 +33,8 @@ function Services() {
       <h1 className="text-base font-bold text-white pb-3">Services</h1>
       <p className="text-4xl text-center">What we do for your brand</p>
       <p className="text-center p-5 pb-12">
-        Vaquero Robot handles the full spectrum of digital marketing. From
-        planning to execution to measurement, we own the results.
+        ZanderBot handles the full spectrum of digital marketing. From planning
+        to execution to measurement, we own the results.
       </p>
       {/* Services Section */}
       {ListOfServices.map((service) => {

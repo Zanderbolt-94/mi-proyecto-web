@@ -13,7 +13,7 @@ const testimonials: Testimonial[] = [
   {
     rating: 5,
     quote:
-      "Vaquero Robot took our social media from invisible to impossible to ignore. The strategy was sharp, the execution was clean, and the results were real.",
+      "ZanderBot took our social media from invisible to impossible to ignore. The strategy was sharp, the execution was clean, and the results were real.",
     profileImageURL: "./testimonials/webflow/webflow_user.png",
     name: "Maria Santos",
     position: "Marketing directo, Coastal Goods",
