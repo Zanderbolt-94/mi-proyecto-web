@@ -29,7 +29,7 @@ function HowWeWork() {
       {/* Reemplazamos w- por w-max y le ponemos un ancho máximo para controlar el tamaño de la foto */}
       <div className="border border-gray-500 overflow-hidden rounded-lg flex flex-col">
         <img
-          src="./public/strategy_image.png"
+          src="./strategy_image.png"
           alt="strategy_image"
           className="w-full h-auto object-cover"
         />

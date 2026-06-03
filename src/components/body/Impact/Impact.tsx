@@ -24,7 +24,7 @@ function Impact() {
         <FontAwesomeIcon icon={faGreaterThan} />
       </div>
       <img
-        src="./public/impact.png"
+        src="./impact.png"
         alt="strategy_image"
         className="w-full h-auto object-cover pb-16"
       />
