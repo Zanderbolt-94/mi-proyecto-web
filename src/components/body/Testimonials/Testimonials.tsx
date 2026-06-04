@@ -23,7 +23,7 @@ const testimonials: Testimonial[] = [
 
 function Testimonials() {
   return (
-    <div className="flex flex-col gap-6 pb-16">
+    <div className="flex flex-col gap-6 pb-16 md:max-w-3xl mx-auto">
       {testimonials.map((testimonial) => {
         return <Testimonial testimonial={testimonial} />;
       })}

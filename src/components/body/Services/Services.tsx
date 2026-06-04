@@ -29,24 +29,30 @@ const ListOfServices: Service[] = [
 
 function Services() {
   return (
-    <div className="flex flex-col text-white items-center pt-16">
-      <h1 className="text-base font-bold text-white pb-3">Services</h1>
-      <p className="text-4xl text-center">What we do for your brand</p>
-      <p className="text-center p-5 pb-12">
-        ZanderBot handles the full spectrum of digital marketing. From planning
-        to execution to measurement, we own the results.
-      </p>
+    <div className="flex flex-col text-white items-center pt-16 md:gap-20">
+      <div>
+        <h1 className="text-base font-bold text-white pb-3 text-center">
+          Services
+        </h1>
+        <p className="text-4xl text-center">What we do for your brand</p>
+        <p className="text-center p-5 pb-12">
+          ZanderBot handles the full spectrum of digital marketing. From
+          planning to execution to measurement, we own the results.
+        </p>
+      </div>
       {/* Services Section */}
-      {ListOfServices.map((service) => {
-        return (
-          <Service
-            text={service.text}
-            imageURL={service.imageURL}
-            title={service.title}
-            key={service.title}
-          />
-        );
-      })}
+      <div className="flex flex-col  md:flex-row md">
+        {ListOfServices.map((service) => {
+          return (
+            <Service
+              text={service.text}
+              imageURL={service.imageURL}
+              title={service.title}
+              key={service.title}
+            />
+          );
+        })}
+      </div>
       {/* Buttons Section */}
       <div className="flex items-center gap-6 pb-12">
         <SecondaryButton text="Start" /> Arrow

@@ -27,28 +27,30 @@ function HowWeWork() {
       </div>
       {/* Image and Text Section */}
       {/* Reemplazamos w- por w-max y le ponemos un ancho máximo para controlar el tamaño de la foto */}
-      <div className="border border-gray-500 overflow-hidden rounded-lg flex flex-col">
-        <img
-          src="./strategy_image.png"
-          alt="strategy_image"
-          className="w-full h-auto object-cover"
-        />
+      <div className="border border-gray-500 overflow-hidden rounded-lg flex flex-col md:flex-row md:w-full">
+        <div className="md:w-1/2">
+          <img
+            src="./strategy_image.png"
+            alt="strategy_image"
+            className="w-full h-auto object-cover"
+          />
+        </div>
 
         {/* El contenedor del texto */}
-        <div className="p-6 flex flex-col gap-2">
+        <div className="p-6 flex flex-col gap-2 md:w-1/2 md:justify-center md:items-start md:gap-8">
           <h2 className="font-bold text-base text-gray-400">Strategy</h2>
 
           {/* Con text-4xl el texto es grande; usando normal-case y asegurando que haga break-words */}
-          <p className="text-3xl font-normal wrap-break-word whitespace-normal">
+          <p className="text-3xl font-normal wrap-break-word whitespace-normal md:text-7xl">
             We map your audience and their behavior
           </p>
-          <p className="text-base font-light wrap-break-word whitespace-normal pb-6">
+          <p className="text-base font-light wrap-break-word whitespace-normal pb-6 md:text-xl">
             No guessing. No wasted spend. We know who to reach and why they'll
             listen.
           </p>
           {/* Buttons Section */}
           <div className="flex items-center gap-6">
-            <SecondaryButton text="Read" /> Arrow
+            <SecondaryButton text="Read" styles="md:text-xl" /> Arrow
             <FontAwesomeIcon icon={faGreaterThan} />
           </div>
         </div>

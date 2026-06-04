@@ -12,20 +12,20 @@ function App() {
   return (
     <div>
       {/* // Container Principal con Color azul */}
-      <div className="bg-DarkBluePrimary p-5">
+      <div className="bg-DarkBluePrimary p-5 md:p-16">
         <Header />
         {/* Body Section */}
         <Hero />
       </div>
-      <div className="bg-black p-5">
+      <div className="bg-black p-5 md:p-16">
         <HowWeWork />
         <Services />
       </div>
-      <div className="bg-DarkBluePrimary p-5">
+      <div className="bg-DarkBluePrimary p-5 md:p-16">
         <Impact />
         <Testimonials />
       </div>
-      <div className="bg-black p-5">
+      <div className="bg-black p-5 md:p-16">
         <Audit />
         <Footer />
       </div>

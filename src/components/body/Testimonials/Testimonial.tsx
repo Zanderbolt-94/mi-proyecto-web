@@ -37,14 +37,15 @@ function Testimonial({ testimonial }: TestimonialProps) {
           );
         })}
       </div>
-      <p className="text-xl font-light text-center">{testimonial.quote}</p>
+      <p className="text-xl font-light text-center md:text-3xl">
+        {testimonial.quote}
+      </p>
       {/* User Info */}
-      <div className="flex flex-col text-white items-center gap-4">
+      <div className="flex flex-col text-white items-center gap-4 md:flex-row ">
         <img className="w-18 h-18" src={testimonial.profileImageURL} alt="" />
-        <p className="text-xl text-center">
+        <p className="text-xl text-center md:border-r md:pr-3">
           <strong> {testimonial.name} </strong> <br /> {testimonial.position}
         </p>
-        <p></p>
         <img src={testimonial.logoImageURL} alt="" />
       </div>
     </div>
